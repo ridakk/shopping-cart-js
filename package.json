@@ -1,0 +1,19 @@
+{
+  "name": "shopping-cart-js",
+  "version": "1.0.0",
+  "description": "Javacsript shopping cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridakk/shopping-cart-js.git"
+  },
+  "author": "Kadir Goktas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ridakk/shopping-cart-js/issues"
+  },
+  "homepage": "https://github.com/ridakk/shopping-cart-js#readme"
+}
