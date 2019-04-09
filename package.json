@@ -23,5 +23,8 @@
     "eslint-plugin-dependencies": "^2.4.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-security": "^1.4.0"
+  },
+  "dependencies": {
+    "require-dir-all": "^0.4.15"
   }
 }
