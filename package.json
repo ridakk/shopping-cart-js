@@ -4,7 +4,8 @@
   "description": "Javacsript shopping cart",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ridakk/shopping-cart-js/issues"
   },
-  "homepage": "https://github.com/ridakk/shopping-cart-js#readme"
+  "homepage": "https://github.com/ridakk/shopping-cart-js#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-dependencies": "^2.4.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-security": "^1.4.0"
+  }
 }

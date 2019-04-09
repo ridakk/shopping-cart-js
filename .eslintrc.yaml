@@ -1,0 +1,74 @@
+---
+plugins:
+  - import
+  - security
+  - dependencies
+
+extends:
+  - eslint:recommended
+  - airbnb-base
+  - plugin:security/recommended
+
+parserOptions:
+  sourceType:
+    - 0
+    - script
+
+rules:
+  indent:
+    - 2
+    - 2
+  eol-last:
+    - 2
+    - always
+  arrow-body-style:
+    - 2
+    - always
+# allow __ for lodash
+  no-underscore-dangle:
+    - 2
+    - allow:
+      - __
+# disable requiring trailing comma for function declarations and function calls
+  comma-dangle:
+    - 2
+    - arrays: 'always-multiline'
+      objects: 'always-multiline'
+      imports: 'always-multiline'
+      exports: 'always-multiline'
+      functions: 'ignore'
+
+# require require() calls to be placed at top-level module scope
+  global-require:
+    - 2
+
+# require error handling in callbacks
+# handle-callback-err
+
+# disallow require calls to be mixed with regular variable declarations
+  no-mixed-requires:
+    - 2
+
+# disallow new operators with calls to require
+  no-new-require:
+    - 2
+
+# disallow string concatenation with __dirname and __filename
+  no-path-concat:
+    - 2
+
+# disallow the use of process.env
+  no-process-env:
+    - 2
+
+# disallow the use of process.exit()
+  no-process-exit:
+    - 2
+
+# disallow synchronous methods
+  no-sync:
+    - 1
+
+# disallow duplicate module imports
+  no-duplicate-imports:
+    - 2
