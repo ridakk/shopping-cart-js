@@ -1,4 +1,8 @@
 ---
+env:
+  node: true
+  es6: true
+
 plugins:
   - import
   - security
@@ -10,9 +14,7 @@ extends:
   - plugin:security/recommended
 
 parserOptions:
-  sourceType:
-    - 0
-    - script
+  sourceType: script
 
 rules:
   indent:
