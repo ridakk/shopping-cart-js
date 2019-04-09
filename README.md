@@ -31,7 +31,7 @@ Implement a class that takes a cart and calculates the delivery cost.
 
 ```javascript
 //sample creating a new category
-Category food = new new Category("food");
+Category food = new Category("food");
 //products
 Product apple = new Product("Apple", 100.0, category);
 Product almond = new Product("Almonds", 150.0, category);
