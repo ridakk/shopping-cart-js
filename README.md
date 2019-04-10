@@ -2,28 +2,32 @@
 
 Javacsript shopping cart
 
+## Prerequisites
+
+1. install node8+
+1. install dependencies `npm install`
+
 ## Requirements
 
-• All Cases should have full unit test coverage.
-• Follow OO Solid Principles and write easy to understand code.
-• Be Ready to add new requirements, do pair programming and explain your code.
-• Do not copy the code from google. Provide your own implementation.
+* All Cases should have full unit test coverage.
+* Follow OO Solid Principles and write easy to understand code.
+* Be Ready to add new requirements, do pair programming and explain your code.
+* Do not copy the code from google. Provide your own implementation.
 Implement an e-commerce shopping cart class.
 
 ## Rules
 
-• Product has a title and price.
-• Product belong to a category.
-• Category may or may not have a parent category.
-• Category has a title.
-• Products are added to the Cart with quantity info.
-• Campaigns exist for product price discounts.
-• Campaigns are applicable to a product category.
-• Campaign discount vary based on the number of products in the cart
-• Coupons exist for cart discounts.
-• Coupons have minimum cart amount constraint. If Cart amount is less than minimum,
-• discount is not applied.
-• Delivery Cost is Dynamic. Based on the number of deliveries and number of products.
+* Product has a title and price.
+* Product belong to a category.
+* Category may or may not have a parent category.
+* Category has a title.
+* Products are added to the Cart with quantity info.
+* Campaigns exist for product price discounts.
+* Campaigns are applicable to a product category.
+* Campaign discount vary based on the number of products in the cart
+* Coupons exist for cart discounts.
+* Coupons have minimum cart amount constraint. If Cart amount is less than minimum discount is not applied.
+* Delivery Cost is Dynamic. Based on the number of deliveries and number of products.
 
 ## Cart
 
